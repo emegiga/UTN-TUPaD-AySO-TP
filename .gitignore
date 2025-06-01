@@ -1,0 +1,7 @@
+# Ignorar configuraciones de Windows
+desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# Ignorar todos los desktop.ini en cualquier subcarpeta
+**/desktop.ini
