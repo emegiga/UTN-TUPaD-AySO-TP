@@ -8,7 +8,7 @@ print("::: SERIE DE FIBONACCI :::\n")
 def fibonacci(num):
     if num == 0 or num == 1:    # caso base. si se cumple, retorna el parámetro "num"
         return num
-    else:                       # a partir de ser mayor a 1, se llama a sí misma para calcular el valor según la suma de sus dos anteriores
+    else:                       # se llama a sí misma para calcular el valor según la suma de sus dos anteriores
         return fibonacci(num - 1) + fibonacci(num - 2)   
 
 # imprime la serie de Fibonacci desde la posición 0 hasta 'num', utilizando recursión.
